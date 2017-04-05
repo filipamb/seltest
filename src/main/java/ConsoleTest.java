@@ -13,7 +13,6 @@ public class ConsoleTest {
         String pageSource = driver.getPageSource();
         System.out.println(pageSource);
         driver.findElementById("LoginID");
-
         Thread.sleep(5000);
         driver.quit();
     }
